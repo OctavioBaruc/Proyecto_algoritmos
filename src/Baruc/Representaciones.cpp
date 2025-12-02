@@ -129,9 +129,8 @@ int main() {
         cout << "\n";
     }
 
-    // ==============================
+    
     // Matriz de Incidencia
-    // ==============================
     cout << "\nMATRIZ DE INCIDENCIA:\n";
     auto inc = gr.incidenceMatrix();
     for (auto &fila : inc) {
@@ -142,3 +141,5 @@ int main() {
 
     return 0;
 }
+
+
