@@ -44,3 +44,4 @@ int main() {
     cout << (ok ? "Existe Perfect Matching ✔️\n" : "No existe Perfect Matching ❌\n");
     return 0;
 }
+
