@@ -45,3 +45,9 @@ int main() {
     return 0;
 }
 
+/*El algoritmo determina si existe un perfect matching intentando emparejar todos los nodos del lado izquierdo.
+Para cada vértice izquierdo, ejecuta un DFS que busca un nodo del lado derecho libre o que pueda reacomodar su pareja mediante recursión.
+El arreglo used evita visitar dos veces el mismo nodo derecho en un mismo intento.
+Si algún nodo izquierdo no logra emparejarse, se concluye que el matching perfecto no existe.
+Tiempo: O(V · E) en el peor caso, pues hace un DFS por cada nodo izquierdo.
+Espacio: O(V + E), por la lista de adyacencia, el arreglo matchR y el vector used.*/

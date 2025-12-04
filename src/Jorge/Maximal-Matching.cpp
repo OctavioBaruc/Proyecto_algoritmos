@@ -36,3 +36,9 @@ int main() {
     return 0;
 }
  
+/*El algoritmo construye un maximal matching seleccionando aristas sin conflicto de forma greedy.
+Primero ordena las aristas según una heurística simple (suma de índices), lo que solo influye en el orden de elección.
+Luego recorre cada arista y la agrega al matching si ambos extremos aún no están usados.
+Los nodos de cada arista aceptada se marcan como ocupados para evitar emparejamientos múltiples.
+El matching resultante es maximal (no se puede agregar más aristas sin romper la validez), aunque no necesariamente máximo.
+Tiempo: O(E log E) por la ordenación y Espacio: O(V), por el vector used y el matching almacenado.*/

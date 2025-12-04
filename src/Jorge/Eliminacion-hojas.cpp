@@ -57,3 +57,9 @@ int main() {
     return 0;
 }
  
+/*El algoritmo genera un matching por eliminación de hojas, tomando siempre nodos de grado 1.
+Primero calcula el grado de cada nodo y mete a la cola los que tengan grado 1 (hojas).
+Cuando procesa una hoja, la empareja con su único vecino disponible y ambos se marcan como eliminados.
+Luego actualiza el grado de los vecinos restantes y agrega nuevas hojas a la cola.
+Es muy eficiente en grafos tipo árbol o estructuras casi lineales, pero no garantiza matching máximo en general.
+Tiempo: O(V + E) y Espacio: O(V), por grados, marcados y la cola.*/

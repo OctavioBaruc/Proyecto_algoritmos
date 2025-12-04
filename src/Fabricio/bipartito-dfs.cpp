@@ -34,3 +34,10 @@ int main() {
     cout << "Bipartito DFS: "
          << (esBipartitoDFS(g) ? "SI" : "NO") << endl;
 }
+
+/*El algoritmo verifica si un grafo es bipartito usando DFS para colorear los nodos.
+Cada nodo sin visitar recibe un color y se intenta colorear a sus vecinos con el color opuesto.
+Si en algún momento un vecino ya coloreado tiene el mismo color, el grafo no es bipartito.
+Se recorre cada componente conectada iniciando un DFS desde los nodos no visitados.
+Tiempo: O(V + E), ya que cada nodo y cada arista se procesa una sola vez.
+Espacio: O(V), por el arreglo de colores y la pila implícita del DFS.*/

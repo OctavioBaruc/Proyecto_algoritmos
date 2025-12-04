@@ -73,3 +73,9 @@ int main() {
         if (pairV[v] != -1)
             cout << pairV[v] << " - " << v << "\n";
 }
+/*El algoritmo implementa Hopcroft–Karp, que encuentra el emparejamiento máximo en un grafo bipartito.
+Primero, el BFS construye niveles y detecta si existen rutas aumentantes más cortas.
+Luego, el DFS recorre esas rutas para aumentar el matching emparejando nodos U ↔ V.
+Este proceso se repite hasta que ya no existan más rutas aumentantes.
+Tiempo: O(√V · E), porque cada fase BFS+DFS cuesta O(E) y se repite O(√V) veces.
+Espacio: O(V + E), por almacenar el grafo y los arreglos de emparejamiento y distancias.*/

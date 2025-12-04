@@ -36,3 +36,10 @@ int main() {
     for (auto& p : res)
         cout << p.first << " - " << p.second << "\n";
 }
+
+/*El algoritmo obtiene un matching greedy recorriendo los nodos en orden y emparejando cada uno con el primer vecino disponible.
+Para cada nodo no usado, se busca un vecino también libre; si existe, ambos se marcan como usados y se agrega el par al matching.
+El proceso continúa sin retroceder ni deshacer emparejamientos, por lo que no garantiza el matching máximo.
+Es simple y rápido, ideal como aproximación inicial o heurística.
+Tiempo: O(V + E), porque cada nodo y cada arista se revisa como máximo una vez.
+Espacio: O(V), por el arreglo used y el vector donde se guardan los pares emparejados.*/

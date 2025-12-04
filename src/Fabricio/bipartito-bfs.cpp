@@ -40,3 +40,10 @@ int main() {
 
     return 0;
 }
+
+/*El algoritmo determina si un grafo es bipartito usando BFS para colorear sus nodos.
+Cada componente comienza sin color, se asigna uno inicial y se propaga el color opuesto a sus vecinos.
+Si durante el recorrido un nodo vecino ya tiene color y coincide con el actual, el grafo no es bipartito.
+El proceso se repite para todos los nodos no visitados para cubrir componentes desconectados.
+Tiempo: O(V + E), porque cada arista y cada nodo se procesa una sola vez.
+Espacio: O(V), por el arreglo de colores y la cola del BFS.*/

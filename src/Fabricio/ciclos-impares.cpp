@@ -36,3 +36,10 @@ int main() {
     cout << "Ciclo impar: "
          << (tieneCicloImpar(g) ? "SI" : "NO") << endl;
 }
+
+/*El algoritmo detecta si un grafo tiene un ciclo impar usando coloreo por DFS.
+Cada nodo se colorea con 0 o 1, e intenta asignar el color opuesto a sus vecinos durante el recorrido.
+Si algún vecino ya coloreado tiene el mismo color, significa que hay un ciclo impar.
+Se revisan todas las componentes del grafo comenzando desde nodos no visitados.
+Tiempo: O(V + E), porque cada arista y cada nodo se procesa una vez.
+Espacio: O(V), por el arreglo de colores y la pila implícita del DFS.*/

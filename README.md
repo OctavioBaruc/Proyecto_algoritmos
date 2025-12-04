@@ -5,7 +5,8 @@
 ---
 
 ## Introducción
-Este repositorio contiene la implementación de múltiples representaciones y algoritmos fundamentales de grafos, desarrollados en **C++** siguiendo buenas prácticas de programación, modularidad y un flujo profesional con Git/GitHub.
+Este repositorio contiene la i
+mplementación de múltiples representaciones y algoritmos fundamentales de grafos, desarrollados en **C++** siguiendo buenas prácticas de programación, modularidad y un flujo profesional con Git/GitHub.
 
 El proyecto es dividio de la siguiente forma, incluyendo los algoritmos correspondientes:
 <details>
