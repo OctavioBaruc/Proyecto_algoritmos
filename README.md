@@ -7,16 +7,47 @@
 ## Introducción
 Este repositorio contiene la implementación de múltiples representaciones y algoritmos fundamentales de grafos, desarrollados en **C++** siguiendo buenas prácticas de programación, modularidad y un flujo profesional con Git/GitHub.
 
-El proyecto incluye:
+El proyecto es dividio de la siguiente forma, incluyendo los algoritmos correspondientes:
+<details>
+<summary>/src <--- click</summary>
 
-- Representaciones internas de grafos  
-- Algoritmos de recorrido  
-- Algoritmos de componentes  
-- Caminos más cortos  
-- Árboles de expansión mínima/máxima  
-- Verificación de propiedades del grafo  
-- Algoritmos de pareos (matchings)  
-- Pruebas y demostraciones  
+### Baruc
+- Representaciones de Grafo  
+- Recorridos 
+### Isa 
+- Componentes Conexas 
+- Caminos más cortos
+### Gaby
+- Árboles de expansión
+- Verificar si un grafo es un árbol
+### Fabricio
+- Grafo bipartito  
+- Matching(Pareo)
+### Jorge 
+- Pareos perfectos y maximales 
+
+</details>
+<details>
+<summary>/test <--- click</summary>
+
+### Baruc
+- testeo de Representaciones de Grafo  
+- testeo de Recorridos 
+### Isa 
+- testeo de Componentes Conexas 
+- testeo de Caminos más cortos
+### Gaby
+- testeo de Árboles de expansión
+- testeo de Verificar si un grafo es un árbol
+### Fabricio
+- testeo de Grafo bipartito  
+- testeo de Matching(Pareo)
+## Jorge  
+- testeo de Pareos perfectos y maximales
+
+</details>
+
+
 
 Cada sección fue implementada por distintos integrantes del equipo utilizando ramas separadas y Pull Requests.
 
@@ -24,18 +55,12 @@ Cada sección fue implementada por distintos integrantes del equipo utilizando r
 
 ---
 
-# Representaciones de Grafos
+# Especifiaciones de los algoritmos
 
-El proyecto incluye 3 representaciones compatibles con:
+Los algoritmos logran funcionar con:
 
 - Grafos dirigidos / no dirigidos  
 - Grafos ponderados / no ponderados  
-
-Representaciones:
-
-- Matriz de Adyacencia  
-- Lista de Adyacencia  
-- Matriz de Incidencia  
 
 ---
 
@@ -67,13 +92,22 @@ Representaciones:
 ### Verificar si es un árbol
 - Conectividad  
 - Detección de ciclos  
-- Validación |E| = n − 1  
+- Validación |E| = n − 1 
 
-### Pareos (Matchings)
-- Matching maximal  
-- Matching máximo básico  
-- Pareos en bipartitos (versión simple)
-- Pareos en no bipartitos (nivel básico)
+### Grafo bipartito
+- BFS por coloreo
+- DFS por coloreo
+- Ciclos impares
+
+## Matching(Pareo)
+- Greedy
+- Augmentig path
+- Simple Alternating path
+
+### Pareos perfectos y maximales
+- Perfect matching 
+- Maximal Matching
+- Eliminación de hojas
 
 ---
 
@@ -85,8 +119,8 @@ A continuación se presentan varias formas de ejecutar el proyecto dependiendo d
 
 # 1. Ejecutar desde **VSCode** (RECOMENDADO)
 
-## ✔ Prerrequisitos
-Instalar extensiones:
+##  Prerrequisitos
+Instalar extensiones en **vscode**:
 - **C/C++** (Microsoft)
 - **C/C++ Compile Run** (opcional)
 - Tener instalado `g++` (MSYS2, MinGW o WSL)
@@ -141,7 +175,7 @@ C:/msys64/ucrt64/bin/g++.exe
 windows-gcc-x64 
 ```
 ---
-### 4. Compilar usando el botón en VSCode
+### 4. Compilar en VSCode
 1. Abrir:
 
 ```bash
@@ -156,9 +190,9 @@ src/NOMBRE_DEL_ARCHIVO.cpp
 ---
 ---
 
-### conclusiones
+## Conclusión general
 
-Este proyecto integra representaciones de grafos y algoritmos fundamentales, diseñados con estructura modular, claridad y colaboración profesional mediante Git/GitHub.
+Este proyecto integra representaciones de grafos y algoritmos fundamentales, diseñados durante el curso de Estructuras Computacionales Avanzadas, fueron implementados con claridad y colaboración profesional mediante Git/GitHub.
 Es una base sólida tanto para aprendizaje como para ampliaciones futuras.
 
 ---
