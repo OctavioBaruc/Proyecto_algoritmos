@@ -41,7 +41,7 @@ int main() {
     adj[2] = {0,2}; // izquierda 2 -> derecha 0 y 2
 
     bool ok = perfectMatching(3, 3);
-    cout << (ok ? "Existe Perfect Matching ✔️\n" : "No existe Perfect Matching ❌\n");
+    cout << (ok ? "Existe Perfect Matching \n" : "No existe Perfect Matching \n");
     return 0;
 }
 
