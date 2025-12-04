@@ -1,7 +1,6 @@
 # Proyecto Final: Algoritmos de Grafos  
-**Materia:** Análisis de Algoritmos  
+**Materia:** Estructuras avanzadas  
 **Fecha de entrega:** 4 de diciembre  
-**Equipo:** [Nombres del equipo]
 
 ---
 
@@ -51,26 +50,26 @@ Representaciones:
 - DFS  
 - BFS  
 
-### 🔹 Componentes Conexas
+### Componentes Conexas
 - Componentes en grafos no dirigidos  
 - SCC (Kosaraju, Tarjan)
 
-### 🔹 Caminos más cortos
+### Caminos más cortos
 - Dijkstra  
 - Bellman-Ford  
 - Floyd-Warshall  
 
-### 🔹 Árboles de expansión
+### Árboles de expansión
 - Kruskal  
 - Prim  
 - Reverse-Kruskal  
 
-### 🔹 Verificar si es un árbol
+### Verificar si es un árbol
 - Conectividad  
 - Detección de ciclos  
 - Validación |E| = n − 1  
 
-### 🔹 Pareos (Matchings)
+### Pareos (Matchings)
 - Matching maximal  
 - Matching máximo básico  
 - Pareos en bipartitos (versión simple)
@@ -78,13 +77,13 @@ Representaciones:
 
 ---
 
-# ⚙️ Cómo Compilar y Ejecutar el Proyecto
+# Cómo Compilar y Ejecutar el Proyecto
 
 A continuación se presentan varias formas de ejecutar el proyecto dependiendo del entorno.
 
 ---
 
-# 🟦 1. Ejecutar desde **VSCode** (RECOMENDADO)
+# 1. Ejecutar desde **VSCode** (RECOMENDADO)
 
 ## ✔ Prerrequisitos
 Instalar extensiones:
@@ -92,7 +91,7 @@ Instalar extensiones:
 - **C/C++ Compile Run** (opcional)
 - Tener instalado `g++` (MSYS2, MinGW o WSL)
 
-# ⚙️ Cómo Compilar y Ejecutar el Proyecto en Visual Studio Code (VSCode)
+# Cómo Compilar y Ejecutar el Proyecto en Visual Studio Code (VSCode)
 
 A continuación se muestran las instrucciones completas para configurar VSCode y compilar con un **solo botón**.
 
