@@ -140,6 +140,7 @@ C:/msys64/ucrt64/bin/g++.exe
 ```bash
 windows-gcc-x64 
 ```
+---
 ### 4. Compilar usando el botón en VSCode
 1. Abrir:
 
@@ -152,8 +153,13 @@ src/NOMBRE_DEL_ARCHIVO.cpp
 ```bash
 ▶ Run C/C++ File
 ```
+---
+---
 
 ### conclusiones
 
 Este proyecto integra representaciones de grafos y algoritmos fundamentales, diseñados con estructura modular, claridad y colaboración profesional mediante Git/GitHub.
 Es una base sólida tanto para aprendizaje como para ampliaciones futuras.
+
+---
+---
